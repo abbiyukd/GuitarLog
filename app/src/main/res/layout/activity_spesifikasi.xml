@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Spesifikasi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_photo"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/ic_launcher_background"
+                />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            style="@style/TextContent.Black"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textSize="32sp"
+            tools:text="Nama Gitar" />
+        <TextView
+            style="@style/TextContent.Black"
+            android:id="@+id/tv_item_detail"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            tools:text="Detaiil"
+            android:textSize="18sp"/>
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:text="@string/spesifikasi"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/type"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_type"
+                    style="@style/TextSpec.Value"
+                    android:textSize="16sp"
+                    tools:text="Type" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/shape"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_shape"
+                    style="@style/TextSpec.Value"
+                    android:textSize="16sp"
+                    tools:text="Shape" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/material"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_material"
+                    style="@style/TextSpec.Value"
+                    android:textSize="16sp"
+                    tools:text="Material" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/scale"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_scale"
+                    style="@style/TextSpec.Value"
+                    android:textSize="16sp"
+                    tools:text="Scale" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/pickup"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_pickup"
+                    style="@style/TextSpec.Value"
+                    android:textSize="16sp"
+                    tools:text="Pickup" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/finish"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_item_finish"
+                    style="@style/TextSpec.Value"
+                    android:textSize="16sp"
+                    tools:text="Finish" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Guitar Log</string>
+    <string name="detail">Detail</string>
+    <string name="spesifikasi">Specifications</string>
+    <string name="guitar_name">Nama Gitar</string>
+    <string name="profile">Halaman Profil</string>
+    <string name="nama">Abbiyu Distira</string>
+    <string name="address">Semarang, Indonesia</string>
+    <string name="email">abbiyukirana@gmail.com</string>
+    <string name="phone">(+62)82141890500</string>
+    <string name="facebook">facebook.com/abbiyu.kirana</string>
+    <string name="finish">Finishing</string>
+    <string name="pickup">Pickup System</string>
+    <string name="scale">Scale Length</string>
+    <string name="material">Material</string>
+    <string name="shape">Body Shape</string>
+    <string name="type">Guitar Type</string>
+    <string name="tittle">Selamat Datang di Guitar Log!</string>
+    <string name="regtittle">REGISTRASI DATA</string>
+    <string name="user">username</string>
+    <string name="password">password</string>
+    <string name="login">masuk</string>
+    <string name="register">register</string>
+    <string name="logout">Logout</string>
+    <string name="name">Nama Kamu</string>
+</resources>
